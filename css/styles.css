@@ -159,12 +159,12 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #b09781;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #d6370c;
+  color: #b09781;
   text-decoration: underline;
 }
 
@@ -2471,19 +2471,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #b09781;
+  border-color: #b09781;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #947c67;
+  border-color: #947c67;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
-  box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
+  background-color: #947c67;
+  border-color: #947c67;
+  box-shadow: 0 0 0 0.2rem rgba(148, 124, 103, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
@@ -4000,7 +4000,7 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.55rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -6210,8 +6210,7 @@ button.bg-dark:focus {
   border-top: 0 !important;
 }
 
-.border-right-0 {
-  border-right: 0 !important;
+.border-right-0 {100
 }
 
 .border-bottom-0 {
@@ -6335,7 +6334,7 @@ button.bg-dark:focus {
 .d-table-cell {
   display: table-cell !important;
 }
-
+100
 .d-flex {
   display: flex !important;
 }
@@ -10007,7 +10006,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #b09781;
 }
 
 hr.light {
@@ -10037,7 +10036,7 @@ hr.light {
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
-  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Dancing Script', cursive;
   font-weight: 700;
   color: #212529;
 }
@@ -10052,7 +10051,7 @@ hr.light {
   color: #f4623a;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #b09781 !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10070,7 +10069,7 @@ hr.light {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #b09781;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10083,20 +10082,20 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #b09781;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #b09781;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(104,103,83, 0.8) 0%, rgba(104,103,83, 0.8) 100%), url("../assets/img/opulent.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10163,4 +10162,8 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.cursive {
+  font-family: 'Dancing Script', cursive;
 }
